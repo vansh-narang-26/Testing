@@ -6,7 +6,7 @@ test.use({
     width: 1600,
   },
 });
-
+//Check all working of navlinks in desktop
 test("check all the working of navlinks", async ({ page }) => {
   //   test.setTimeout(90000);
   await page.goto("https://www.xenonstack.com/", {
